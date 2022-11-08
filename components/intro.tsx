@@ -15,7 +15,7 @@ export default function Intro() {
             fontWeight="medium"
             position="relative"
           >
-            Hey there, I'm-
+            Hey there, I'm
           </Text>
         </Box>
         <Heading
@@ -25,7 +25,7 @@ export default function Intro() {
           letterSpacing={{ sm: '-1.2px', md: '-1.8px' }}
           position="relative"
         >
-          <Box color="displayColor" as="span">Your Name</Box>
+          <Box color="displayColor" as="span">Siyeon</Box>
           .
         </Heading>
       </SlideFade>
@@ -36,7 +36,7 @@ export default function Intro() {
       >
         <Box w={['85vw', '40vw']}>
         <Text fontSize="display3" color="textSecondary">
-          Some description about yourself. Lorem ipsum and all that good stuff. Some more waffle to fill up the space.
+          I'm a first year in chemical engineering at Imperial College London. I'm trying something new.
         </Text>
         </Box>
       </SlideFade>
@@ -46,7 +46,7 @@ export default function Intro() {
         transition={{ enter: { duration: 0.4, delay: 1.0 } }}
       >
         <Stack isInline spacing={4}>
-          <Link href="https://github.com/" isExternal>
+          <Link href="https://github.com/siyeon0/" isExternal>
             <Button
               leftIcon={<FaGithub color="#5F99FF" />}
               position="static"
@@ -57,7 +57,7 @@ export default function Intro() {
               Github
             </Button>
           </Link>
-          <Link href="https://linkedin.com/" isExternal>
+          <Link href="https://www.linkedin.com/in/siyeonkang/" isExternal>
             <Button
               leftIcon={<FaLinkedin color="#5F99FF" />}
               position="static"
@@ -68,7 +68,7 @@ export default function Intro() {
               LinkedIn
             </Button>
           </Link>
-          <Link href="mailto:gdsc@imperial.ac.uk" isExternal>
+          <Link href="mailto:siyeon.kang22@imperial.ac.uk" isExternal>
             <Button
               leftIcon={<FaEnvelope fill="#5F99FF" />}
               transition="0.3s"
